@@ -1,0 +1,13 @@
+{
+	"color_scheme": "Geoffry.sublime-color-scheme",
+	"highlight_line": true,
+	"line_padding_bottom": 2,
+	"line_padding_top": 1,
+	"margin": 0,
+	"rulers":
+	[
+		80
+	],
+	"show_minimap": false,
+	"theme": "Geoffry.sublime-theme"
+}
