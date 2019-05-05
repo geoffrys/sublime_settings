@@ -1,94 +1,94 @@
 {
-	"name": "Geoffry Color Scheme",
-	"variables": {
-		"cyan": "color(hsl(187, 47%, 55%) a(85%))",
-		"blue": "color(hsl(207, 82%, 66%) a(85%))",
-		"purple": "color(hsl(286, 60%, 67%) a(85%))",
-		"green": "color(hsl(95, 38%, 62%) a(85%))",
-		"red": "color(hsl(355, 65%, 65%) a(85%))",
-		"orange": "color(hsl(29, 54%, 61%) a(85%))",
-		"foreground": "color(#abb2bf a(85%))",
-		"background": "color(#282c34 a(85%))",
-		"selection": "color(#bbccf51b a(85%))",
-		"gutter": "color(#636d8388 a(85%))",
-		"highlight": "color(#528bff80 a(85%))",
-		"line_highlight": "color(#8cc2fc0b a(85%))",
-		"find_highlight": "color(#314365 a(85%))",
-		"find_highlight_foreground": "color(#528bff a(85%))",
-		"comment": "color(#5c6370 a(85%))",
-		"accent": "color(#528bff a(85%))"
-	},
-	"globals": {
-		"foreground": "var(foreground)",
-		"background": "var(background)",
-		"invisibles": "var(accent)",
-		"caret": "var(accent)",
-		"line_highlight": "var(line_highlight)",
-		"bracket_contents_options": "underline",
-		"bracket_contents_foreground": "var(blue)",
-		"bracket_options": "underline",
-		"brackets_foreground": "var(blue)",
-		"tags_options": "underline",
-		"tags_foreground": "var(blue)",
-		"gutter": "var(background)",
-		"gutter_foreground": "var(gutter)",
-		"selection": "var(selection)",
-		// "selection_border": "var(selection)",
-		"inactive_selection": "var(selection)",
-		"guide": "color(var(foreground) alpha(0.20))",
-		// "active_guide": "var(blue)",
-		// "stack_guide": "var(orange)",
-		"highlight": "var(highlight)",
-		"find_highlight": "var(find_highlight)",
-		"find_highlight_foreground": "var(find_highlight_foreground)",
-		"line_diff_width": "2",
-		"line_diff_added": "var(green)",
-		"line_diff_modified": "var(orange)",
-		"line_diff_deleted": "var(red)",
-		"shadow": "var(gutter)",
-		"shadow_width": "1"
-	},
-	"rules": [
-		{
-			"scope": "text, source",
-			"foreground": "var(foreground)"
-		},
-		{
-			"scope": "comment, punctuation.definition.comment",
-			"foreground": "var(comment)",
-			"font_style": "italic"
-		},
-		{
-			"scope": "string",
-			"foreground": "var(green)"
-		},
-		{
-			"scope": "storage.type",
-			"foreground": "var(cyan)"
-		},
-		{
-			"scope": "keyword, storage.type.keyword, storage.type.function, storage.type.class",
-			"foreground": "var(purple)"
-		},
-		{
-			"scope": "keyword.operator",
-			"foreground": "var(red)"
-		},
-		{
-			"scope": "variable.function",
-			"foreground": "var(blue)"
-		},
-		{
-			"scope": "entity.name",
-			"foreground": "var(blue)"
-		},
-		{
-			"scope": "entity.name.tag",
-			"foreground": "var(red)"
-		},
-		{
-			"scope": "constant",
-			"foreground": "var(orange)"
-		},
-	]
+    "name": "Geoffry Color Scheme",
+    "variables": {
+        "cyan": "color(hsl(187, 47%, 55%) a(85%))",
+        "blue": "color(hsl(207, 82%, 66%) a(85%))",
+        "purple": "color(hsl(286, 60%, 67%) a(85%))",
+        "green": "color(hsl(95, 38%, 62%) a(85%))",
+        "red": "color(hsl(355, 65%, 65%) a(85%))",
+        "orange": "color(hsl(29, 54%, 61%) a(85%))",
+        "foreground": "color(#abb2bf a(85%))",
+        "background": "color(#282c34 a(85%))",
+        "selection": "color(#bbccf51b a(85%))",
+        "gutter": "color(#636d8388 a(85%))",
+        "highlight": "color(#528bff80 a(85%))",
+        "line_highlight": "color(#8cc2fc0b a(85%))",
+        "find_highlight": "color(#314365 a(85%))",
+        "find_highlight_foreground": "color(#528bff a(85%))",
+        "comment": "color(#5c6370 a(85%))",
+        "accent": "color(#528bff a(85%))"
+    },
+    "globals": {
+        "foreground": "var(foreground)",
+        "background": "var(background)",
+        "invisibles": "var(accent)",
+        "caret": "var(accent)",
+        "line_highlight": "var(line_highlight)",
+        "bracket_contents_options": "underline",
+        "bracket_contents_foreground": "var(blue)",
+        "bracket_options": "underline",
+        "brackets_foreground": "var(blue)",
+        "tags_options": "underline",
+        "tags_foreground": "var(blue)",
+        "gutter": "var(background)",
+        "gutter_foreground": "var(gutter)",
+        "selection": "var(selection)",
+        // "selection_border": "var(selection)",
+        "inactive_selection": "var(selection)",
+        "guide": "color(var(foreground) alpha(0.20))",
+        // "active_guide": "var(blue)",
+        // "stack_guide": "var(orange)",
+        "highlight": "var(highlight)",
+        "find_highlight": "var(find_highlight)",
+        "find_highlight_foreground": "var(find_highlight_foreground)",
+        "line_diff_width": "2",
+        "line_diff_added": "var(green)",
+        "line_diff_modified": "var(orange)",
+        "line_diff_deleted": "var(red)",
+        "shadow": "var(gutter)",
+        "shadow_width": "1"
+    },
+    "rules": [
+        {
+            "scope": "text, source",
+            "foreground": "var(foreground)"
+        },
+        {
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "var(comment)",
+            "font_style": "italic"
+        },
+        {
+            "scope": "string",
+            "foreground": "var(green)"
+        },
+        {
+            "scope": "storage.type",
+            "foreground": "var(cyan)"
+        },
+        {
+            "scope": "keyword, storage.type.keyword, storage.type.function, storage.type.class",
+            "foreground": "var(purple)"
+        },
+        {
+            "scope": "keyword.operator",
+            "foreground": "var(red)"
+        },
+        {
+            "scope": "variable.function",
+            "foreground": "var(blue)"
+        },
+        {
+            "scope": "entity.name",
+            "foreground": "var(blue)"
+        },
+        {
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "scope": "constant",
+            "foreground": "var(orange)"
+        },
+    ]
 }
