@@ -83,6 +83,10 @@
             "foreground": "var(blue)"
         },
         {
+            "scope": "entity.name.type",
+            "foreground": "var(cyan)"
+        },
+        {
             "scope": "entity.name.tag",
             "foreground": "var(red)"
         },
